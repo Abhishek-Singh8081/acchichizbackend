@@ -11,6 +11,7 @@ async function fileUploadToCloudinary(file, folder, type) {
   });
 }
 
+
 exports.getUserProfile = async (req, res) => {
   try {
     const userId = req.user.id; // JWT se aya hua user
