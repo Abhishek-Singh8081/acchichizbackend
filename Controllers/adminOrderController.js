@@ -1,9 +1,9 @@
 // controllers/orderController.js
 
-const Order = require("../Models/Order");
 const User = require("../Models/User");
 const Product = require("../Models/Product");
 const Notification = require("../Models/Notification");
+const Order = require("../Models/Order");
 
 exports.getAllOrders = async (req, res) => {
   try {

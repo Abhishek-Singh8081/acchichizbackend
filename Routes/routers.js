@@ -37,7 +37,7 @@ const {
   getAllOrders,
   deleteOrder,
 } = require("../Controllers/userOrderController");
-const User = require("../Models/user");
+const User = require("../Models/User");
 const {
   createBlog,
   updateBlog,
