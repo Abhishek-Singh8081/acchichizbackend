@@ -1,4 +1,3 @@
-const User = require("../Models/user");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
@@ -7,6 +6,7 @@ const { crypto } = require("crypto");
 const sendOtpToMobile = require("../Utils/SMSotp");
 const Mobile = require("../Models/mobil");
 
+const User = require("../Models/User");
 const generateOtp = () =>
   Math.floor(100000 + Math.random() * 900000).toString();
 

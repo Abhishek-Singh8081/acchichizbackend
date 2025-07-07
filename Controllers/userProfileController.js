@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const User = require("../Models/user");
+const User = require("../Models/User");
 const bcrypt = require("bcrypt");
 const cloudinary = require("cloudinary").v2;
 const Product=require("../Models/Product")
